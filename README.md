@@ -45,8 +45,6 @@ Users should be able to:
 -   Mobile-first workflow
 -   Bootstrap 5
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 I was having some trouble with updating images depending on the screen size. I thought I'd need js for this. Then I found out about the picture tag. I saw that tag once before but I completely forgot about it because I never got to use that before. I saved me from writing js for this single feature. Hopefully I'll get to use this more often.
