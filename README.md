@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Frontend Mentor Challenge](https://your-solution-url.com)
+-   Solution URL: [Frontend Mentor Challenge](https://www.frontendmentor.io/solutions/product-preview-card-component-using-bootstrap-5-uRyR0Pk9SH)
 -   Live Site URL: [Netlify - Product Preview Card Component](https://product-preview-card-component41.netlify.app/)
 
 ## My Process
