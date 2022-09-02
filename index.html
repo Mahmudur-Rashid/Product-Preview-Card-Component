@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+		<title>Frontend Mentor | Product preview card component</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+			h1 {
+				font-family: "Fraunces", serif;
+			}
+			body {
+				background-color: hsl(30, 38%, 92%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container mt-2 mb-2">
+			<div
+				class="card mx-auto border-0 shadow-sm"
+				style="max-width: 800px"
+			>
+				<div class="row">
+					<div class="col-md-6">
+						<picture class="card-img-top">
+							<source
+								media="(min-width: 600px)"
+								srcset="./images/image-product-desktop.jpg"
+							/>
+							<img
+								class="rounded-1"
+								style="width: 100%"
+								src="./images/image-product-mobile.jpg"
+							/>
+						</picture>
+					</div>
+					<div class="col-md-6">
+						<div class="card-body d-md-flex flex-column gap-5">
+							<p
+								style="
+									letter-spacing: 5px;
+									font-family: 'Montserrat', sans-serif;
+								"
+								class="product-type card-subtitle text-muted"
+							>
+								PERFUME
+							</p>
+							<h1 class="product-name card-title fw-bold">
+								Gabrielle Essence Eau De Parfum
+							</h1>
+							<p
+								style="font-family: 'Montserrat', sans-serif"
+								class="product-description text-muted card-text"
+							>
+								A floral, solar and voluptuous interpretation
+								composed by Olivier Polge, Perfumer-Creator for
+								the House of CHANEL.
+							</p>
+							<div class="price d-flex">
+								<h1 class="current-price fw-bold text-success">
+									$149.99
+								</h1>
+								<p
+									class="previous-price text-muted text-decoration-line-through ms-3"
+								>
+									$169.99
+								</p>
+							</div>
+							<a class="btn btn-success d-block"
+								><img src="./images/icon-cart.svg" /> Add to
+								Cart</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by
+			<a href="https://github.com/Mahmudur-Rashid">Mahmudur Rashid</a>.
+		</div>
+	</body>
+</html>
